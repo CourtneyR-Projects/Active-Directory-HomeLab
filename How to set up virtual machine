@@ -1,0 +1,50 @@
+📥 How to Download Oracle VirtualBox
+1. Visit the Official VirtualBox Website
+
+Go to the official download page:
+
+👉 https://www.virtualbox.org
+
+2. Select “Download VirtualBox”
+
+On the homepage, click Download VirtualBox to open the downloads section.
+
+3. Choose Your Operating System
+
+Under VirtualBox Platform Packages, select the installer for your OS:
+
+Windows hosts – for Windows 10/11
+
+macOS hosts – for Mac
+
+Linux distributions – for Ubuntu, Debian, etc.
+
+Example (Windows):
+Click Windows hosts to start the download.
+
+4. Download the Installer
+
+A file similar to one of the following will download:
+VirtualBox-7.x.x-Win.exe      # Windows
+VirtualBox-7.x.x-macOS.dmg    # macOS
+VirtualBox-7.x.x-Linux.run    # Linux
+
+5. Run the Installer
+
+Windows: Double-click the .exe file
+
+macOS: Open the .dmg file and drag VirtualBox into Applications
+
+Linux: Run the .run file with terminal permissions
+
+6. Complete the Installation
+
+Follow the installation wizard:
+
+Click Next through the prompts
+
+Allow any permissions or driver installations
+
+Click Install
+
+Click Finish to open VirtualBox
