@@ -8,76 +8,57 @@
 <p>You can download the evaluation ISO from Microsoft’s official site:</p>
 <p><strong>https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022</strong></p>
 
-<h3><strong>📸 Screenshot Placeholder</strong></h3>
-<pre>
-&lt;img src="screenshots/server2022_download.png" alt="Windows Server 2022 Download Page"&gt;
-</pre>
-
 <hr>
 
-<h2><strong>➡️ 2. Create a New Virtual Machine (DC01)</strong></h2>
+<h2><strong>➡️ 2. Create a New Virtual Machine</strong></h2>
 <p>Open VirtualBox and click <strong>New</strong>. Use the following settings:</p>
 
 <ul>
-    <li><strong>Name:</strong> DC01</li>
-    <li><strong>Type:</strong> Microsoft Windows</li>
-    <li><strong>Version:</strong> Windows 2022 (64-bit)</li>
-    <li><strong>Memory:</strong> 4096–8192 MB</li>
-    <li><strong>Processors:</strong> 2+ CPUs</li>
-    <li><strong>Storage:</strong> 60 GB (VDI)</li>
-    <li><strong>Network:</strong> Internal Network</li>
-</ul>
+    <li><strong>Name:</strong> Server 2022</li>
+    <li><strong>OS:</strong> Microsoft Windows</li>
+    <li><strong>Version:</strong> Windows Server 2022 (64-bit)</li>
 
-<h3><strong>📸 Screenshot Placeholder</strong></h3>
 <pre>
-&lt;img src="screenshots/dc01_vm_creation.png" alt="DC01 VM Creation"&gt;
-</pre>
+<img width="1293" height="752" alt="Screenshot 2025-11-15 091338" src="https://github.com/user-attachments/assets/d060e0c3-e3dd-41cf-83b3-6be4f10d3036" />
 
 <hr>
 
-<h2><strong>➡️ 3. Attach the Windows Server 2022 ISO</strong></h2>
-<p>After creating the VM:</p>
-<ol>
-    <li>Select <strong>DC01</strong> in VirtualBox</li>
-    <li>Click <strong>Settings → Storage</strong></li>
-    <li>Select the empty optical drive</li>
-    <li>Click the disc icon → <strong>Choose a disk file</strong></li>
-    <li>Select your Windows Server 2022 ISO</li>
-</ol>
+<h2><strong>➡️ 3. Specify Virtual Hardware</strong></h2>
+<p>Set it up however you like <strong>New</strong>. I Used the following settings:</p>
+    
+<ul>
+    <li><strong>Base Memory:</strong> 8MB</li>
+    <li><strong>Number of CPUs:</strong> 2</li>
+    <li><strong>Disk Size:</strong> 30.77GB</li>
 
-<h3><strong>📸 Screenshot Placeholder</strong></h3>
-<pre>
-&lt;img src="screenshots/dc01_attach_iso.png" alt="Attach Server 2022 ISO"&gt;
-</pre>
+<img width="818" height="390" alt="Screenshot 2025-11-15 091831" src="https://github.com/user-attachments/assets/6f036635-e035-4174-be26-415822bc285f" />
 
 <hr>
 
 <h2><strong>➡️ 4. Start the Virtual Machine</strong></h2>
-<p>Click <strong>Start</strong> to boot from the ISO and begin installation.</p>
+<p>Click <strong>Start</strong> Press start and a menu will appear for you to add the server iso. After you upload the iso press "Mount and Retry Boot". </p>
 
-<h3><strong>📸 Screenshot Placeholder</strong></h3>
-<pre>
-&lt;img src="screenshots/server2022_boot.png" alt="Booting Server 2022 Installer"&gt;
-</pre>
+<img width="1284" height="751" alt="Screenshot 2025-11-15 091928" src="https://github.com/user-attachments/assets/407c005e-8879-4eea-8de4-ec888acf684c" />
+
 
 <hr>
 
-<h2><strong>➡️ 5. Begin Windows Server 2022 Installation</strong></h2>
+<h2><strong>➡️ 5. Microsoft Server Operating System Setup </strong></h2>
 <p>Follow the on-screen prompts:</p>
 
-<ol>
-    <li>Select your language and keyboard layout</li>
-    <li>Click <strong>Install Now</strong></li>
-    <li>Choose: <strong>Windows Server 2022 Standard (Desktop Experience)</strong></li>
-    <li>Accept license agreement</li>
-    <li>Select <strong>Custom: Install Windows only</strong></li>
-    <li>Choose the virtual disk and continue</li>
-</ol>
+<img width="1021" height="853" alt="Screenshot 2025-11-15 092126" src="https://github.com/user-attachments/assets/23b04369-98a4-4259-9b7f-9cc2eefed5e7" />
 
-<h3><strong>📸 Screenshot Placeholder</strong></h3>
-<pre>
-&lt;img src="screenshots/server2022_install_options.png" alt="Server 2022 Installation Options"&gt;
-</pre>
+<p>Make sure to select "Windows Server 2022 Standard Evaluation (Desktop Experience)":</p>
+    
+<img width="1024" height="844" alt="Screenshot 2025-11-15 092234" src="https://github.com/user-attachments/assets/fc83141f-d73c-47b3-82b5-b786865af289" />
+
+<p>Next select "Custom: Install Microsoft Server" :</p>
+
+<img width="1019" height="849" alt="Screenshot 2025-11-15 092342" src="https://github.com/user-attachments/assets/c2468b59-d846-4622-b2dd-c048ed9955ff" />
+
+<p>You can chose to allocate space but for this tutorial I did not</p>
+
+<img width="611" height="457" alt="Screenshot 2025-11-15 092532" src="https://github.com/user-attachments/assets/288487da-517e-46f4-8f53-4b94fdedb071" />
 
 <hr>
 
@@ -88,10 +69,7 @@
     <li>Set your <strong>Administrator</strong> password (Ex: <code>Passw0rd!</code>)</li>
 </ul>
 
-<h3><strong>📸 Screenshot Placeholder</strong></h3>
-<pre>
-&lt;img src="screenshots/server2022_admin_setup.png" alt="Administrator Password Setup"&gt;
-</pre>
+<img width="1020" height="850" alt="Screenshot 2025-11-15 092805" src="https://github.com/user-attachments/assets/699c5154-299c-479b-aa77-3c58f7639039" />
 
 <hr>
 
@@ -103,33 +81,9 @@ Username: Administrator
 Password: (your password)
 </pre>
 
-<h3><strong>📸 Screenshot Placeholder</strong></h3>
-<pre>
-&lt;img src="screenshots/server2022_logged_in.png" alt="Windows Server 2022 Desktop"&gt;
-</pre>
+<p>Now you should see your Server Manager</p
+<p>🎉Installation of Server 2022 is complete🎉</p
 
 <hr>
 
-<h2><strong>➡️ 8. (Recommended) Rename the Server</strong></h2>
-
-<p>Rename the computer to <strong>DC01</strong>:</p>
-
-<ol>
-    <li>Open <strong>Server Manager</strong></li>
-    <li>Click <strong>Local Server</strong></li>
-    <li>Click the computer name</li>
-    <li>Rename it to: <strong>DC01</strong></li>
-    <li>Restart</li>
-</ol>
-
-<h3><strong>📸 Screenshot Placeholder</strong></h3>
-<pre>
-&lt;img src="screenshots/server2022_rename_dc01.png" alt="Rename Server to DC01"&gt;
-</pre>
-
-<hr>
-
-<h2><strong>➡️ Windows Server 2022 Installation Completed 🎉</strong></h2>
-<p>Your virtual machine is now ready to be promoted to a Domain Controller.</p>
-
-<p align="center"><em>Next Step: Install Active Directory Domain Services (AD DS)</em></p>
+<img width="1021" height="853" alt="Screenshot 2025-11-15 093659" src="https://github.com/user-attachments/assets/8bca4a4d-1045-480f-9332-1b2113d296f9" />
