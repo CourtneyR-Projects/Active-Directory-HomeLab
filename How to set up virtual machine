@@ -1,50 +1,62 @@
-## 📥 How to Download Oracle VirtualBox ##
-1. Visit the Official VirtualBox Website
+<h2><strong>📥 How to Download Oracle VirtualBox</strong></h2>
+<hr>
 
-Go to the official download page:
+<h3><strong>➡️ 1. Visit the Official VirtualBox Website</strong></h3>
+<p>Go to the official download page:</p>
+<p>👉 <strong>https://www.virtualbox.org</strong></p>
 
-👉 https://www.virtualbox.org
+<hr>
 
-2. Select “Download VirtualBox”
+<h3><strong>➡️ 2. Select “Download VirtualBox”</strong></h3>
+<p>On the homepage, click <strong>Download VirtualBox</strong> to open the downloads section.</p>
 
-On the homepage, click Download VirtualBox to open the downloads section.
+<hr>
 
-3. Choose Your Operating System
+<h3><strong>➡️ 3. Choose Your Operating System</strong></h3>
+<p>Under <strong>VirtualBox Platform Packages</strong>, choose the installer for your system:</p>
+<ul>
+    <li><strong>Windows hosts</strong> – Windows 10/11</li>
+    <li><strong>macOS hosts</strong> – Mac devices</li>
+    <li><strong>Linux distributions</strong> – Ubuntu, Debian, etc.</li>
+</ul>
+<p><strong>Example (Windows):</strong> Click <strong>Windows hosts</strong> to begin downloading.</p>
 
-Under VirtualBox Platform Packages, select the installer for your OS:
+<hr>
 
-Windows hosts – for Windows 10/11
+<h3><strong>➡️ 4. Download the Installer</strong></h3>
+<p>You will download a file similar to:</p>
 
-macOS hosts – for Mac
+<pre>
+VirtualBox-7.x.x-Win.exe      <!-- Windows -->
+VirtualBox-7.x.x-macOS.dmg    <!-- macOS -->
+VirtualBox-7.x.x-Linux.run    <!-- Linux -->
+</pre>
 
-Linux distributions – for Ubuntu, Debian, etc.
+<hr>
 
-Example (Windows):
-Click Windows hosts to start the download.
+<h3><strong>➡️ 5. Run the Installer</strong></h3>
+<ul>
+    <li><strong>Windows:</strong> Double-click the <code>.exe</code> file</li>
+    <li><strong>macOS:</strong> Open the <code>.dmg</code> file and drag VirtualBox to Applications</li>
+    <li><strong>Linux:</strong> Run the <code>.run</code> file using terminal with executable permissions</li>
+</ul>
 
-4. Download the Installer
+<hr>
 
-A file similar to one of the following will download:
-VirtualBox-7.x.x-Win.exe      # Windows
-VirtualBox-7.x.x-macOS.dmg    # macOS
-VirtualBox-7.x.x-Linux.run    # Linux
+<h3><strong>➡️ 6. Complete the Installation</strong></h3>
+<p>Follow the installation wizard:</p>
+<ol>
+    <li>Click <strong>Next</strong> through the prompts</li>
+    <li>Allow any permissions or drivers it requests</li>
+    <li>Click <strong>Install</strong></li>
+    <li>Click <strong>Finish</strong> to launch VirtualBox</li>
+</ol>
 
-5. Run the Installer
+<hr>
 
-Windows: Double-click the .exe file
+<h3><strong>📸 Screenshot Placeholder</strong></h3>
+<p>Add your own screenshot here:</p>
 
-macOS: Open the .dmg file and drag VirtualBox into Applications
-
-Linux: Run the .run file with terminal permissions
-
-6. Complete the Installation
-
-Follow the installation wizard:
-
-Click Next through the prompts
-
-Allow any permissions or driver installations
-
-Click Install
-
-Click Finish to open VirtualBox
+<pre>
+&lt;img src="screenshots/virtualbox_download.png" alt="VirtualBox Download"&gt;
+</pre>
